@@ -4,6 +4,7 @@ import com.cpg.cloudrunprocessor.dto.Product;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@RequestMapping(path = "/public")
 public class WebController {
 
     @PostMapping("/create")
