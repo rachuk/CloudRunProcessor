@@ -47,6 +47,20 @@
             <artifactId>spring-boot-autoconfigure</artifactId>
             <version>3.0.4</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+            <version>3.0.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>spring-cloud-gcp-dependencies</artifactId>
+            <version>4.1.2</version>
+            <type>pom</type>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -57,5 +71,6 @@
             </plugin>
         </plugins>
     </build>
+
 
 </project>

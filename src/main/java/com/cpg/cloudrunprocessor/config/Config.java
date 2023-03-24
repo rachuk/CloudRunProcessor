@@ -14,4 +14,10 @@ public class Config {
                 .pathsToMatch("/public/**")
                 .build();
     }
+
+    @Bean
+    public String tst() {
+        System.out.println("version-1-debug");
+        return "";
+    }
 }
