@@ -14,10 +14,4 @@ public class Config {
                 .pathsToMatch("/public/**")
                 .build();
     }
-
-    @Bean
-    public String tst() {
-        System.out.println("z nen");
-        return "";
-    }
 }
